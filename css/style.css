@@ -9,6 +9,8 @@
     background-color: #3161E0;
     height: 70px;
     padding: 10px;
+    display: flex;
+    text-align: center;
 }
 
 .container {
@@ -27,10 +29,14 @@
 }
 
 .header-links {
-    display: flex;
 	text-align: center;
 	padding: center ;
 	margin-top:8px;
+    justify-content: space-between;
+}
+
+a {
+    padding: 10px;
 }
 
 .link {
@@ -38,19 +44,25 @@
     color: #dad9d9;
 }
 
-.button {
-	background-color:white;
+.button .link{
+	text-decoration: none;
+    color: #000000;
+}
+
+.bottone {
+	background-color: white;
 	display: inline-flex;
 	align-items: center;
 	border-radius: 50%;
 	padding-left: 20px;
 	padding-right: 20px;
+    text-decoration: #000000;
 
 }
 
 /* First Section*/
 .first-section {
-    background-image: url(../img-discord/jumbo.png);
+    background-image:url(../img-discord/jumbo.png);
     background-color:  #3161E0;
     background-position: center;
     background-size: cover;
@@ -60,6 +72,14 @@
     align-items: center;
 }
 
+.black-button {
+    background-color: black;
+    display: inline-flex;
+	align-items: center;
+	border-radius: 20px 20px 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 .fuchsia-box {
     background-color: none;
     border: none;
@@ -88,17 +108,20 @@
 }
 
 .blue-box {
-    background-color: rgb(33, 111, 206);
-    border: 1px dashed black;
-    height: 400px;
+    background-image: url(../img-discord/item1.svg);
+    background-size: cover;
+	background-position: center ; 
+    height: 300px;
     width: 60%;
 }
 
 .pink-box {
-    background-color: pink;
-    border: 1px dashed black;
+    background-color:white;
     height: 400px;
+    display: inline-block;
+    align-items: center;
     width: 40%;
+    text-align: top;
 }
 /* /Second Section */
 
@@ -110,28 +133,44 @@
     align-items: center;
 }
 
-.pink-box {
-    background-color: pink;
-    border: 1px dashed black;
+.pink-box2 {
+    background-color: rgb(204, 201, 201);
     height: 400px;
     width: 40%;
+    text-align: left;
 }
 
-.blue-box {
-    background-color:  rgb(33, 111, 206);
-    border: 1px dashed black;
+.blue-box2 {
+    background-image: url(../img-discord/item2.svg);
     height: 400px;
     width: 60%;
 }
 /* /Third Section */
 
+/* Fourth Section */
+.blue-box3 {
+    background-image: url(../img-discord/item3.svg);
+    height: 450px;
+    width: 100%;
+}
+
+.pink-box3 {
+    background-color: white;
+    height: 400px;
+    width: 40%;
+    text-align: right;
+}
+/* Fourth Section */
+
+
 /* Fifth Section */
 .green-box {
-    background-color: green;
-    border: 1px dashed black;
     width: 60%;
     height: 800px;
     margin: 30px 0;
+    background-position: center;
+    text-align: center;
+
 }
 
 /* /Fifth Section */
