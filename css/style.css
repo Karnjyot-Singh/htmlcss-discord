@@ -1,4 +1,4 @@
-/* RESEET */
+* RESEET */
 * {
     padding: 0;
     margin: 0;
@@ -6,7 +6,7 @@
 }
 
 .header {
-    background-color: rgb(163, 228, 245);
+    background-color: #3161E0;
     height: 70px;
     padding: 10px;
 }
@@ -18,17 +18,42 @@
 }
 
 .yellow-row {
-    border: 1px dashed black;
-    background-color: yellow;
+    border: none;
+    background-color:  #3161E0;
     display: flex;
     justify-content: space-between;
     margin: auto;
     padding: 10px;
 }
 
+.header-links {
+    display: flex;
+	text-align: center;
+	padding: center ;
+	margin-top:8px;
+}
+
+.link {
+	text-decoration: none;
+    color: #dad9d9;
+}
+
+.button {
+	background-color:white;
+	display: inline-flex;
+	align-items: center;
+	border-radius: 50%;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
 /* First Section*/
 .first-section {
-    background-color: rgb(2, 2, 154);
+    background-image: url(../img-discord/jumbo.png);
+    background-color:  #3161E0;
+    background-position: center;
+    background-size: cover;
     height: 400px;
     display: flex;
     justify-content: center;
@@ -36,11 +61,14 @@
 }
 
 .fuchsia-box {
-    background-color: fuchsia;
-    border: 1px solid black;
-    border: 1px dashed black;
+    background-color: none;
+    border: none;
     height: 300px;
     width: 700px;
+    display: inline-block;
+	align-items: center;
+	color: white;
+	text-align: center;
 }
 /* /First Section*/
 
@@ -82,21 +110,20 @@
     align-items: center;
 }
 
-.box-pink2 {
+.pink-box {
     background-color: pink;
     border: 1px dashed black;
     height: 400px;
     width: 40%;
 }
 
-.box-blue {
+.blue-box {
     background-color:  rgb(33, 111, 206);
     border: 1px dashed black;
     height: 400px;
     width: 60%;
 }
 /* /Third Section */
-
 
 /* Fifth Section */
 .green-box {
@@ -106,7 +133,11 @@
     height: 800px;
     margin: 30px 0;
 }
+
 /* /Fifth Section */
+section {
+    padding: 30px 0;
+}
 
 /* Sixth Section */
 .black-section {
